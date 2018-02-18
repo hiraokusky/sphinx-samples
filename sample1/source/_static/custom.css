@@ -1,0 +1,71 @@
+.wy-body-for-nav {
+  font-family:meiryo;
+}
+
+.wy-nav-content {
+  max-width:100%;
+}
+
+.wy-table-responsive {
+    max-width: initial;
+    overflow: initial;
+}
+
+.wy-table-responsive table td, table th {
+    white-space: initial;
+}
+
+table.docutils td, table.docutils th {
+  border: 1px solid rgb(204, 204, 204);
+  padding: 6px 13px;
+  text-align: left;
+}
+
+table.docutils col {
+  width: auto;
+}
+
+table.docutils tbody th.stub {
+  background-color: transparent;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+a.headerlink {
+    color: #c60f0f;
+    font-size: 0.8em;
+    padding: 0 4px 0 4px;
+    text-decoration: none;
+    visibility: hidden;
+}
+
+a.headerlink:hover {
+    background-color: #c60f0f;
+    color: white;
+}
+
+
+/* コントロールリファレンス用CSS */
+/* ヘッダー色変更 */
+.control-reference-table .head {
+  background-color: #5b9bd5;
+  color: white;
+}
+
+/* テーブル内の改行時の不要なスペース削除 */
+.control-reference-table .first.last.line-block {
+  margin-left: 0px;
+}
+
+/* 共通_データ参照用CSS */
+.common-data-reference .row-even > td:first-child {
+  border-top: none;
+  border-bottom: none;
+  background-color: white !important;
+}
+.common-data-reference .row-odd > td:first-child {
+  border-top: none;
+  border-bottom: none;
+  background-color: white !important;
+}
+/* コントロールリファレンス用CSS */

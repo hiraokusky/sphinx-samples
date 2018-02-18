@@ -1,0 +1,31 @@
+.externalToolBuilders
+
+# for emacs:
+*~
+\#*
+
+# for vi:
+*.bak
+*.swp
+
+# for rails:
+.bundle
+db/*.sql
+log
+tmp
+
+# metrics
+coverage
+build
+
+# for eclipse
+.project
+.settings
+build.bat
+.pydevproject
+
+# for mac.
+.DS_STORE
+.DS_Store
+
+esdoc
